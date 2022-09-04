@@ -5,19 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact me</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <form action=""></form>
-    <form action="mailto:info@londonappbrewery.com">
-        <input type="date" name="" id="">
-        <input type="datetime-local" name="" id="">
-        <input type="text">
-        <input type="button" value="button">
-        <input type="submit" name="" id="">
+    <h1>MY CONTACT DETAILS</h1>
+    <form action="mailto:info@londonappbrewery.com" method="post" enctype="text/plain">
+        <label for="text">Your name:</label>
+        <input type="text" id="text" name="myName">
+        <br>
+        <label for="text2">Your email:</label>
+        <input type="email" id="text2" name="myEmail">
+        <br>
         <label for="radio">male</label>
         <input type="radio" name="myRadio"id="radio">
         <label for="radia">female</label>
         <input type="radio" value="lady" name="myRadio" id="radia">
+        <br>
+        <label for="">Your message:</label>
+        <br>
+        <textarea name="" id="" cols="30" rows="10" name="myMessage"></textarea>
+        <br>
+        <input type="submit"id="">
     </form>
+    <a href="index.html">home</a>
 </body>
 </html>
